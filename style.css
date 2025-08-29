@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     color: rgb(216, 48, 48);
-    background-image:url("logost.png");
+    background-image: url("logost.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -11,8 +16,10 @@ h1{
     color: red;
 }
 header{
-    background-color: black;
+    background-color: rgba(1, 0, 0, 0.7);
     padding: 10px 0;
+    margin: 20px;
+    border-radius: 6px;
     text-align: center;
 }
 
@@ -37,7 +44,40 @@ nav ul li{
 ol{
     text-align: left;
 }
+nav ol{
+    text-align: center;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin: 10px ;
+}
 nav ol a{
     color: whitesmoke;
     text-decoration: none;
+    text-align: center;
+}
+form fieldset{
+    width: 800px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 15px;
+}
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 80px;
+    background-color: rgba(227, 232, 255, 0.2);
+}
+fieldset{
+    font-size: 1.5rem;
+    color: rgb(39, 5, 5);
+}
+
 }
